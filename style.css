@@ -1,0 +1,124 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start; /* Alterado para flex-start */
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+    background-color: #420202;
+    font-family: 'IBM Plex Serif', serif;
+    color: #fff;
+}
+
+.top-icons {
+    position: absolute;
+    top: 0;
+    left: 20px;
+    display: flex;
+    align-items: center;
+    height: 100px;
+}
+
+.top-icons i {
+    font-size: 2em;
+    margin: 0 10px;
+    color: #fff;
+}
+
+header {
+    width: 100%;
+    padding: 10px 0;
+    text-align: center;
+    background-color: #420202;
+    margin-bottom: 20px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 40px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.2em;
+}
+
+.container {
+    text-align: center;
+}
+
+.design-grafico {
+    font-family: 'Habibi', serif;
+    font-size: 4.5em;
+    margin-bottom: 20px;
+    margin-top: 50px; /* Restaura a margem superior */
+    font-weight: 500;
+    position: relative;
+}
+
+.seja-bem-vindo {
+    font-size: 1.1em;
+    margin-bottom: 20px;
+    margin-top: 10px;
+    text-align: center;
+}
+
+.august-design {
+    font-size: 2.2em;
+    margin-top: 5px;
+    margin-bottom: 20px;
+    font-weight: 500;
+    text-align: center;
+}
+.container img{
+    width: 118rem;
+}
+
+
+
+
+
+
+
+.faq {
+    background-color: #e0e0e0;
+    padding: 20px;
+}
+
+.faq-question {
+    margin-bottom: 20px;
+}
+
+.bio {
+    background-color: #d2b48c;
+    padding: 20px;
+}
+
+.bio-title {
+    font-size: 1.5em;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.bio-content {
+    display: flex;
+    align-items: center;
+}
+
+.bio-content img {
+    max-width: 150px;
+    height: auto;
+    margin-right: 20px;
+}
+
+.bio-text strong {
+    font-size: 1.2em;
+}
